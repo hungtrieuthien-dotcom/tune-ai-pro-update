@@ -1,10 +1,14 @@
 {
-    "version":  "2.0.10",
-    "tag":  "v2.0.10",
-    "name":  "Tune AI Pro v2.0.10",
-    "notes":  "Tune AI Pro v2.0.10 — Đồng Bộ TUNE (CC 6) \u0026 FLEX (CC 11) Tự Động Sang Cubase:\n- Khắc phục triệt để lỗi mở app / đổi preset / mở lại khay đặt TUNE (ví dụ 40) nhưng Auto-Tune Pro bên Cubase vẫn giữ thông số cũ (ví dụ 18): nay luôn gửi đầy đủ CC 6 (TUNE) và CC 11 (FLEX) ngay khi khởi động, chuyển preset và khi bật lại Tắt Tune.\n- Khắc phục lỗi lưu Cấu hình MIDI / Auto-Hide trong Cài đặt Hệ Thống chưa đồng bộ lại ngay vào bộ nhớ phiên chạy và chưa re-sync thông số sang Cubase.\n- Giữ trọn vẹn toàn bộ đồng bộ 7 núm xoay Studio, Send Tone Auto-Key, AI Chuyển Tone Điệp Khúc, sửa chữ cắt trên Windows DPI 125%–150%, và 100% Preset / cấu hình của khách hàng.",
-    "date":  "2026-11-23T13:55:39.908Z",
-    "sha256":  "9ff0f05189977715ce90ecf94949a65d1b74e5264c1b1b75d0f4ced560c1a750",
-    "file":  "Tune AI Pro.exe",
-    "url":  "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.10/Tune.AI.Pro.exe"
+  "version": "2.0.11",
+  "tag": "v2.0.11",
+  "tag_name": "v2.0.11",
+  "name": "Tune AI Pro v2.0.11",
+  "notes": "Tune AI Pro v2.0.11 — Cố Định Kéo Núm Xoay TUNE/FLEX Thời Gian Thực & Đồng Bộ CC 23 (Remix 2) Cho Toàn Bộ File Key XML:\r\n- Cố định kéo chuột & lăn chuột trên núm xoay TUNE (CC 6) và FLEX (CC 11) gửi tín hiệu MIDI thời gian thực 60fps sang núm Retune Speed & Flex Tune trong Cubase Auto-Tune mà không bị nghẽn ghi file.\r\n- Tự động nhận diện chuẩn cổng loopMIDI Port 2 (MIDI OUT -> Cubase Input) và loopMIDI Port 1 (MIDI IN <- Cubase Output) ngay cả khi Windows đổi số thứ tự cổng hoặc để chế độ Tự động.\r\n- Đồng bộ CC 23 (Remix 2 -> VST Mixer chan 1 inserts/slot12:bypass) và đồng bộ bảng điều khiển qua cả 4 Bank (VST 1-16, VST 17-32, VST 33-48, VST 49-64) cho toàn bộ 5 file XML trong C:\\Tune Pro\\Key.",
+  "date": "2026-11-23T15:16:49.414Z",
+  "sha256": "71ae1cb7dc81e4b20d51356360132ab321c28a9b91fe460f4f962dd47fefde32",
+  "size": 23638260,
+  "file": "Tune AI Pro.exe",
+  "asset_name": "Tune.AI.Pro.exe",
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.11/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.11/Tune.AI.Pro.exe"
 }
