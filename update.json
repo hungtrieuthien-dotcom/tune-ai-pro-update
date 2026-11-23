@@ -1,14 +1,14 @@
 {
-  "version": "2.0.15",
-  "tag": "v2.0.15",
-  "tag_name": "v2.0.15",
-  "name": "Tune AI Pro v2.0.15",
-  "notes": "Tune AI Pro v2.0.15 — Bộ Thông Số Mặc Định Chuẩn Phòng Thu Cho Máy Cài Mới & Tự Đồng Bộ Đủ 7 Núm Sang Cubase:\r\n- Cấu hình mặc định khi cài lần đầu trên máy mới (và khi bấm Khôi phục mặc định): TUNE 18 | FLEX 15 | NHẠC -2.0 dB | MIC 1.0 dB | V.DÀI -9.0 dB | V.NGẮN -10.0 dB | DELAY -14.0 dB.\r\n- Gia cố sync_all_midi_to_cubase: tự kết nối lại loopMIDI Port 2 nếu mở trễ và đẩy đủ cả 7 thông số (5 fader 14-bit NRPN + TUNE 14-bit NRPN + FLEX CC 11) ngay khi mở App và khi Project Cubase sẵn sàng.\r\n- Bảo toàn 100% cấu hình riêng: khách sau khi cài xong vẫn tự do chỉnh thông số riêng & bấm Lưu cấu hình bình thường; các máy cũ cập nhật OTA được giữ nguyên 100% preset đã lưu.\r\n- Giữ trọn vẹn thư mục độc lập C:\\Tune AI TH, AI Dò Tone Pro MIR v2, TUNE 14-bit NRPN chuẩn 0..100 và chống xung đột cài đè từ tool ngoài.",
-  "date": "2026-11-23T20:07:21.310Z",
-  "sha256": "dc835e459fd84faf03f18895f794a959b377a60489292b1d9e85552ddb468bbe",
-  "size": 23653202,
+  "version": "2.0.16",
+  "tag": "v2.0.16",
+  "tag_name": "v2.0.16",
+  "name": "Tune AI Pro v2.0.16",
+  "notes": "Tune AI Pro v2.0.16 — Nâng Cấp Hệ Thống Bảo Mật Bản Quyền Ed25519 Theo Mã Thiết Bị & Lõi Mã Hóa Native C Chống Dịch Ngược:\r\n- Kích hoạt bản quyền bằng chữ ký số bất đối xứng Ed25519 (THLT / TH1Y / TH6M) gắn riêng từng Mã Thiết Bị (HWID) — xóa hoàn toàn mật khẩu dùng chung.\r\n- Tích hợp lõi bảo mật native x64 C (_th_sec_core.dll) + mã hóa bytecode lớp 2 (SHA-256-CTR) và kiểm tra toàn vẹn tự động chống crack / dịch ngược.\r\n- Thêm nút \"📋 Copy Mã\" 1 chạm ngay trên màn hình Kích hoạt Bản quyền để khách copy Mã Thiết Bị gửi Zalo nhanh gọn.\r\n- Tương thích ngược 100% với toàn bộ khách hàng đã kích hoạt ở các bản trước (v2.0.5..v2.0.15): cập nhật OTA KHÔNG bị mất bản quyền và giữ nguyên 100% cấu hình phòng thu.\r\n- Giữ nguyên mặc định chuẩn phòng thu (TUNE 18 | FLEX 15 | NHẠC -2.0 | MIC 1.0 | V.DÀI -9.0 | V.NGẮN -10.0 | DELAY -14.0), thư mục C:\\Tune AI TH và AI Dò Tone Pro MIR v2.",
+  "date": "2026-11-23T20:56:13.374Z",
+  "sha256": "4bab836f8e2a4c4b0f762e6cebffaf17ac29090b4113a113e52e82511d39b4a5",
+  "size": 23704227,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.15/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.15/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.16/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.16/Tune.AI.Pro.exe"
 }
