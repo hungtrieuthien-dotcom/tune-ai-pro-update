@@ -1,14 +1,14 @@
 {
-  "version": "2.0.11",
-  "tag": "v2.0.11",
-  "tag_name": "v2.0.11",
-  "name": "Tune AI Pro v2.0.11",
-  "notes": "Tune AI Pro v2.0.11 — Cố Định Kéo Núm Xoay TUNE/FLEX Thời Gian Thực & Đồng Bộ CC 23 (Remix 2) Cho Toàn Bộ File Key XML:\r\n- Cố định kéo chuột & lăn chuột trên núm xoay TUNE (CC 6) và FLEX (CC 11) gửi tín hiệu MIDI thời gian thực 60fps sang núm Retune Speed & Flex Tune trong Cubase Auto-Tune mà không bị nghẽn ghi file.\r\n- Tự động nhận diện chuẩn cổng loopMIDI Port 2 (MIDI OUT -> Cubase Input) và loopMIDI Port 1 (MIDI IN <- Cubase Output) ngay cả khi Windows đổi số thứ tự cổng hoặc để chế độ Tự động.\r\n- Đồng bộ CC 23 (Remix 2 -> VST Mixer chan 1 inserts/slot12:bypass) và đồng bộ bảng điều khiển qua cả 4 Bank (VST 1-16, VST 17-32, VST 33-48, VST 49-64) cho toàn bộ 5 file XML trong C:\\Tune Pro\\Key.",
-  "date": "2026-11-23T15:16:49.414Z",
-  "sha256": "71ae1cb7dc81e4b20d51356360132ab321c28a9b91fe460f4f962dd47fefde32",
-  "size": 23638260,
+  "version": "2.0.12",
+  "tag": "v2.0.12",
+  "tag_name": "v2.0.12",
+  "name": "Tune AI Pro v2.0.12",
+  "notes": "Tune AI Pro v2.0.12 — Nâng Cấp Núm TUNE Chuẩn 14-Bit NRPN Đồng Bộ 100% Chính Xác Với Auto-Tune Pro Trên Cubase 15:\r\n- Nâng cấp điều khiển TUNE (`volumtune`, địa chỉ 6) lên chuẩn 14-bit Ctrl-NRPN kênh 2 (`stat=2, chan=1, max=16383, flags=17`) giống các fader NHẠC/MIC/V.DÀI/V.NGẮN/DELAY, loại bỏ hoàn toàn xung đột CC 6 (Data Entry MSB) trên Cubase 15.\r\n- Hiệu chuẩn bảng quy đổi 14-bit (16384 mức) & 7-bit trực tiếp từ plugin Antares Auto-Tune Pro.vst3 cho đủ 101 giá trị 0..100 (sai số 0, kể cả các mức 0, 30, 32, 36, 40, 50, 60..100).\r\n- Tự động nâng cấp `volumtune` 14-bit NRPN và giữ nguyên đồng bộ CC 23 (Remix 2) + 4 Bank cho toàn bộ 5 file XML trong C:\\Tune Pro\\Key và Generic Remote.xml của Cubase.\r\n- Hỗ trợ đồng bộ ngược 2 chiều từ Cubase về App và tự động giữ chế độ 7-bit chuẩn cho Studio One.",
+  "date": "2026-11-23T17:02:27.010Z",
+  "sha256": "24ba319ed2bd322d7b64d081b4defe04032e180b1509ceaea34af2b5ff081095",
+  "size": 23642271,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.11/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.11/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.12/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.12/Tune.AI.Pro.exe"
 }
