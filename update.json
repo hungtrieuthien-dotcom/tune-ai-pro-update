@@ -1,14 +1,14 @@
 {
-  "version": "2.0.13",
-  "tag": "v2.0.13",
-  "tag_name": "v2.0.13",
-  "name": "Tune AI Pro v2.0.13",
-  "notes": "Tune AI Pro v2.0.13 — Nâng Cấp AI Dò Tone Pro MIR v2 Chuẩn Xác Vượt Trội & Chống Xung Đột Cài Đè App Ngoài:\r\n- Nâng cấp toàn diện động cơ Dò Tone AI v2 (Pro MIR): Tách nhạc nền harmonic (HPSS loại bỏ tiếng trống kick/snare làm nhiễu bass), tự động bù sai lệch tần số beat karaoke (estimate_tuning 36 bins/octave), tổ hợp 3 bộ profile hòa âm đối xứng (Sha'ath + Temperley + Krumhansl, bỏ thiên vị Minor cũ), phân tích tiến trình hợp âm & vòng kết (V->I, V7->i, bVII->i), lấy mẫu 5 phân đoạn và tự chống lệch tone khi điệp khúc cuối lên tone (+1/+2 bán cung).\r\n- Ưu tiên chạy AI Pro MIR v2 trực tiếp trên máy (bỏ qua Server 1 đã ngưng hoạt động và kho đệm cũ VPS 2 bị lẫn dữ liệu sai từ các bản cũ), chỉ dùng VPS 2 làm dự phòng khi video không tải được âm thanh (livestream).\r\n- Tự động làm mới cache AI cũ chưa đạt chuẩn v2 khi phát lại bài hát (giữ nguyên 100% bài khách đã tự lưu trong DS Bài Hát và các mốc lên tone đã lưu).\r\n- Khắc phục triệt để xung đột cài đè từ tool ngoài (%APPDATA%\\TINH DEP TRAI): không bao giờ chép ngược file Sendtone.exe/Dotone.exe ngoài đè vào app, tự sửa vòng lặp cổng MIDI trùng (midi_in == midi_out), bổ sung đủ bảng CC chuẩn và reset at_version ngoại lai.\r\n- Chuẩn hóa toàn bộ 21 tên nốt đồng âm (C#/Db, G#/Ab, D#/Eb, F#/Gb, A#/Bb...) khi gửi MIDI Key/Scale (không còn lỗi rơi về nốt C), tự kết nối lại loopMIDI Port 2 nếu mở trễ, gửi kép CC 31/30 + CC 18/17 khi chọn Auto-Tune 11 trên Cubase, và chặn lỗi đọc nhầm ký tự đơn (A)/(B) trong tiêu đề YouTube.",
-  "date": "2026-11-23T18:28:14.535Z",
-  "sha256": "ead0f72d66920ffeda9074c75f076119fb9dff7fcdde2348d3b85b9ba72e6568",
-  "size": 23652382,
+  "version": "2.0.14",
+  "tag": "v2.0.14",
+  "tag_name": "v2.0.14",
+  "name": "Tune AI Pro v2.0.14",
+  "notes": "Tune AI Pro v2.0.14 — Đổi Thư Mục Cài Đặt Độc Lập Sang C:\\Tune AI TH (Tránh Trùng App Đơn Vị Khác):\r\n- Đổi thư mục cài đặt mặc định từ C:\\Tune Pro sang C:\\Tune AI TH (thêm UsePreviousAppDir=no trong bộ cài Setup), tách biệt hoàn toàn khỏi các phần mềm bên thứ ba từng cài ở C:\\Tune Pro.\r\n- Tự động đồng bộ khóa LockedPath khi nâng cấp từ C:\\Tune Pro sang C:\\Tune AI TH (vẫn giữ nguyên 100% cơ chế khóa phần cứng HWID & Key\\.hw_lock chống sao chép sang máy khác).\r\n- Tương thích hoàn toàn 2 chiều: máy khách cài mới vào sạch C:\\Tune AI TH; máy khách cũ đang ở C:\\Tune Pro nhận cập nhật OTA vẫn chạy trơn tru không mất Key, không mất XML hay cấu hình.\r\n- Giữ trọn vẹn toàn bộ nâng cấp từ v2.0.13: AI Dò Tone Pro MIR v2, TUNE 14-bit NRPN chuẩn 0..100 trên Cubase 15, đồng bộ 21 tên nốt đồng âm và chống xung đột cài đè từ TINH DEP TRAI.",
+  "date": "2026-11-23T19:22:16.020Z",
+  "sha256": "e3fef2ddcaa02279e09fb539dfdc4f17704d9759b9fa02ff04bbc24472619473",
+  "size": 23653073,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.13/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.13/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.14/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.14/Tune.AI.Pro.exe"
 }
