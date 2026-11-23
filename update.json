@@ -1,14 +1,14 @@
 {
-  "version": "2.0.14",
-  "tag": "v2.0.14",
-  "tag_name": "v2.0.14",
-  "name": "Tune AI Pro v2.0.14",
-  "notes": "Tune AI Pro v2.0.14 — Đổi Thư Mục Cài Đặt Độc Lập Sang C:\\Tune AI TH (Tránh Trùng App Đơn Vị Khác):\r\n- Đổi thư mục cài đặt mặc định từ C:\\Tune Pro sang C:\\Tune AI TH (thêm UsePreviousAppDir=no trong bộ cài Setup), tách biệt hoàn toàn khỏi các phần mềm bên thứ ba từng cài ở C:\\Tune Pro.\r\n- Tự động đồng bộ khóa LockedPath khi nâng cấp từ C:\\Tune Pro sang C:\\Tune AI TH (vẫn giữ nguyên 100% cơ chế khóa phần cứng HWID & Key\\.hw_lock chống sao chép sang máy khác).\r\n- Tương thích hoàn toàn 2 chiều: máy khách cài mới vào sạch C:\\Tune AI TH; máy khách cũ đang ở C:\\Tune Pro nhận cập nhật OTA vẫn chạy trơn tru không mất Key, không mất XML hay cấu hình.\r\n- Giữ trọn vẹn toàn bộ nâng cấp từ v2.0.13: AI Dò Tone Pro MIR v2, TUNE 14-bit NRPN chuẩn 0..100 trên Cubase 15, đồng bộ 21 tên nốt đồng âm và chống xung đột cài đè từ TINH DEP TRAI.",
-  "date": "2026-11-23T19:22:16.020Z",
-  "sha256": "e3fef2ddcaa02279e09fb539dfdc4f17704d9759b9fa02ff04bbc24472619473",
-  "size": 23653073,
+  "version": "2.0.15",
+  "tag": "v2.0.15",
+  "tag_name": "v2.0.15",
+  "name": "Tune AI Pro v2.0.15",
+  "notes": "Tune AI Pro v2.0.15 — Bộ Thông Số Mặc Định Chuẩn Phòng Thu Cho Máy Cài Mới & Tự Đồng Bộ Đủ 7 Núm Sang Cubase:\r\n- Cấu hình mặc định khi cài lần đầu trên máy mới (và khi bấm Khôi phục mặc định): TUNE 18 | FLEX 15 | NHẠC -2.0 dB | MIC 1.0 dB | V.DÀI -9.0 dB | V.NGẮN -10.0 dB | DELAY -14.0 dB.\r\n- Gia cố sync_all_midi_to_cubase: tự kết nối lại loopMIDI Port 2 nếu mở trễ và đẩy đủ cả 7 thông số (5 fader 14-bit NRPN + TUNE 14-bit NRPN + FLEX CC 11) ngay khi mở App và khi Project Cubase sẵn sàng.\r\n- Bảo toàn 100% cấu hình riêng: khách sau khi cài xong vẫn tự do chỉnh thông số riêng & bấm Lưu cấu hình bình thường; các máy cũ cập nhật OTA được giữ nguyên 100% preset đã lưu.\r\n- Giữ trọn vẹn thư mục độc lập C:\\Tune AI TH, AI Dò Tone Pro MIR v2, TUNE 14-bit NRPN chuẩn 0..100 và chống xung đột cài đè từ tool ngoài.",
+  "date": "2026-11-23T20:07:21.310Z",
+  "sha256": "dc835e459fd84faf03f18895f794a959b377a60489292b1d9e85552ddb468bbe",
+  "size": 23653202,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.14/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.14/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.15/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.15/Tune.AI.Pro.exe"
 }
