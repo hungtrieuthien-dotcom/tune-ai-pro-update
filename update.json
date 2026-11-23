@@ -1,0 +1,10 @@
+{
+    "version":  "2.0.9",
+    "tag":  "v2.0.9",
+    "name":  "Tune AI Pro v2.0.9",
+    "notes":  "Tune AI Pro v2.0.9 — Sửa Triệt Để Núm Xoay Theo Giao Diện \u0026 Điều Khiển TUNE / FLEX Về Cubase:\r\n- Khắc phục triệt để lỗi 7 núm xoay (TUNE, FLEX, NHẠC, MIC, V.DÀI, V.NGẮN, DELAY) bị ghi đè về màu đen/vàng khi mở khay trên giao diện Hồng Pastel \u0026 Xanh Pastel.\r\n- Mở khóa và đồng bộ 2 chiều nút Tắt Tune / TUNE / FLEX: cho phép nhấp đúp sửa trực tiếp thông số trên app mọi lúc và luôn gửi đầy đủ lệnh MIDI (CC 6, CC 11, NRPN) sang Cubase kể cả khi nhập lại cùng giá trị.\r\n- Hỗ trợ đầy đủ cả hộp thoại nhập số lẫn nhập trực tiếp trên nhãn số cho cả 7 núm xoay trong ngăn Âm Lượng Tổng.\r\n- Giữ trọn vẹn toàn bộ đồng bộ Send Tone Auto-Key, AI Chuyển Tone Điệp Khúc, sửa chữ cắt trên Windows DPI 125%–150%, 3 giao diện Studio và 100% Preset / cấu hình của khách hàng.",
+    "date":  "2026-11-23T11:43:38.459Z",
+    "sha256":  "6f87ed6e642513c8c6e880c7449165a0255953240706e8992cc22ee78eab6152",
+    "file":  "Tune AI Pro.exe",
+    "url":  "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.9/Tune.AI.Pro.exe"
+}
