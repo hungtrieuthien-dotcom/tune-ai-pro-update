@@ -1,14 +1,14 @@
 {
-  "version": "2.0.17",
-  "tag": "v2.0.17",
-  "tag_name": "v2.0.17",
-  "name": "Tune AI Pro v2.0.17",
-  "notes": "Tune AI Pro v2.0.17 — Kho Tone Nạp Sẵn Offline SQLite & Kho Cloud Cộng Đồng TH AUDIO (Ra Tone Tức Thì):\r\n- Tầng 1 (Kho Tone Offline SQLite — tone_db.sqlite): Tra cứu Tone theo đúng YouTube Video ID trong < 0.005 giây, ra Tone tức thì sang Cubase kể cả khi mất mạng.\r\n- Tầng 2 (Kho Cloud Cộng Đồng TH AUDIO — Cloudflare D1 APAC): Khi gặp bài mới chưa có trên máy, app tự tra Cloud trong ~0.15 giây; nếu máy bạn là máy đầu tiên dò bài đó bằng Pro MIR AI v2, kết quả sẽ tự đóng góp lên Cloud (có đồng thuận đa máy chống nhiễu) để tất cả máy khách khác ra Tone tức thì.\r\n- Tự động đồng bộ ngầm Kho Tone mới nhất về máy (và có nút \"📚 Kho Tone Cloud — Đồng bộ\" ngay trong menu ⚙ Tiện ích).\r\n- Nâng sức chứa bộ nhớ đệm AI cục bộ từ 500 lên 5.000 bài; giữ nguyên ưu tiên số 1 cho bài khách tự bấm Lưu Bài (user_songs.json).\r\n- Bảo toàn 100% bảo mật Ed25519 + Native C DLL lớp 2, bản quyền khách cũ, cấu hình 7 núm mặc định phòng thu và thư mục C:\\Tune AI TH.",
-  "date": "2026-11-24T10:28:26.998Z",
-  "sha256": "1105a084e405f59cdfd8d8a28f6fb6fd5e77a11de197632859aabc9606b5cda4",
-  "size": 23713716,
+  "version": "2.0.18",
+  "tag": "v2.0.18",
+  "tag_name": "v2.0.18",
+  "name": "Tune AI Pro v2.0.18",
+  "notes": "Tune AI Pro v2.0.18 — Chuẩn Hóa 100% Mốc Lên Tone Điệp Khúc Trên Kho Cloud, Ưu Tiên Bài Admin Chốt Cứng & Tối Ưu OTA 1 Bước:\r\n- Sửa triệt để định dạng mốc lên tone (min/sec) đồng bộ giữa Kho Cloud D1 và máy khách: không bao giờ nhảy nhầm tone ở giây 00:00 (đã sửa chuẩn Hoa Nở Không Màu 04:30 -> C Minor và các bài lên tone khác).\r\n- Ưu tiên các bài Admin chốt cứng (verified=1) so với bộ nhớ tự động cũ (ai_cache.json), đồng thời giữ nguyên 100% ưu tiên số 1 cho bài khách tự bấm Lưu Bài (user_songs.json).\r\n- Tối ưu cập nhật OTA: luôn kiểm tra bản mới nhất trên GitHub trước file chờ cũ để nhảy thẳng 1 bước lên phiên bản mới nhất.\r\n- Bộ cài Setup đóng gói sẵn hơn 1.770+ bài Karaoke Việt chuẩn Tone offline ngay từ lần cài đầu tiên.",
+  "date": "2026-11-24T13:31:35.849Z",
+  "sha256": "e97037765d4cce5213a1d5d1fa060ddc6dca02f1362da00d679e498f56eaf412",
+  "size": 23714029,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.17/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.17/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.18/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.18/Tune.AI.Pro.exe"
 }
