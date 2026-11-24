@@ -1,14 +1,14 @@
 {
-  "version": "2.0.18",
-  "tag": "v2.0.18",
-  "tag_name": "v2.0.18",
-  "name": "Tune AI Pro v2.0.18",
-  "notes": "Tune AI Pro v2.0.18 — Chuẩn Hóa 100% Mốc Lên Tone Điệp Khúc Trên Kho Cloud, Ưu Tiên Bài Admin Chốt Cứng & Tối Ưu OTA 1 Bước:\r\n- Sửa triệt để định dạng mốc lên tone (min/sec) đồng bộ giữa Kho Cloud D1 và máy khách: không bao giờ nhảy nhầm tone ở giây 00:00 (đã sửa chuẩn Hoa Nở Không Màu 04:30 -> C Minor và các bài lên tone khác).\r\n- Ưu tiên các bài Admin chốt cứng (verified=1) so với bộ nhớ tự động cũ (ai_cache.json), đồng thời giữ nguyên 100% ưu tiên số 1 cho bài khách tự bấm Lưu Bài (user_songs.json).\r\n- Tối ưu cập nhật OTA: luôn kiểm tra bản mới nhất trên GitHub trước file chờ cũ để nhảy thẳng 1 bước lên phiên bản mới nhất.\r\n- Bộ cài Setup đóng gói sẵn hơn 1.770+ bài Karaoke Việt chuẩn Tone offline ngay từ lần cài đầu tiên.",
-  "date": "2026-11-24T13:31:35.849Z",
-  "sha256": "e97037765d4cce5213a1d5d1fa060ddc6dca02f1362da00d679e498f56eaf412",
-  "size": 23714029,
+  "version": "2.0.19",
+  "tag": "v2.0.19",
+  "tag_name": "v2.0.19",
+  "name": "Tune AI Pro v2.0.19",
+  "notes": "Tune AI Pro v2.0.19 — Hệ Thống Bỏ Phiếu Trọng Số Lọc Tone Chuẩn Tự Động (Weighted Consensus v2.0):\r\n- Tự động lọc ra Tone chuẩn & chính xác nhất trên Kho Cloud Cloudflare D1 khi nhiều máy dò khác nhau: ưu tiên trọng số cao cho tín hiệu từ tai người dùng (Lưu Bài, đảo Major/Minor) và Antares Auto-Key thật (+2.5 đến +3.0 điểm) so với AI tự dò (tính theo độ tự tin thực tế 0.5–2.0 điểm).\r\n- Khóa bảo vệ Tone gốc (Shift Guard): khi khách đang nâng/hạ Cao Độ Nhạc (shift ≠ 0), app không đẩy Tone đã dịch lên kho chung để tránh làm sai Tone gốc của bài YouTube.\r\n- Giữ nguyên 100% ưu tiên #1 tuyệt đối cho danh sách bài khách tự bấm Lưu Bài (user_songs.json), cài đặt cá nhân và bản quyền máy.\r\n- Bộ cài Setup đóng gói sẵn hơn 1.790+ bài Karaoke Việt chuẩn Tone offline ngay từ lần cài đầu tiên.",
+  "date": "2026-11-24T14:03:33.530Z",
+  "sha256": "f17f6e76a77c59954bef2ff1b37cb654fc6ec23bdef972ef7e9c29288a2492ee",
+  "size": 23715618,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.18/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.18/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.19/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.19/Tune.AI.Pro.exe"
 }
