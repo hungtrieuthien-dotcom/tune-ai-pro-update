@@ -1,14 +1,14 @@
 {
-  "version": "2.0.16",
-  "tag": "v2.0.16",
-  "tag_name": "v2.0.16",
-  "name": "Tune AI Pro v2.0.16",
-  "notes": "Tune AI Pro v2.0.16 — Nâng Cấp Hệ Thống Bảo Mật Bản Quyền Ed25519 Theo Mã Thiết Bị & Lõi Mã Hóa Native C Chống Dịch Ngược:\r\n- Kích hoạt bản quyền bằng chữ ký số bất đối xứng Ed25519 (THLT / TH1Y / TH6M) gắn riêng từng Mã Thiết Bị (HWID) — xóa hoàn toàn mật khẩu dùng chung.\r\n- Tích hợp lõi bảo mật native x64 C (_th_sec_core.dll) + mã hóa bytecode lớp 2 (SHA-256-CTR) và kiểm tra toàn vẹn tự động chống crack / dịch ngược.\r\n- Thêm nút \"📋 Copy Mã\" 1 chạm ngay trên màn hình Kích hoạt Bản quyền để khách copy Mã Thiết Bị gửi Zalo nhanh gọn.\r\n- Tương thích ngược 100% với toàn bộ khách hàng đã kích hoạt ở các bản trước (v2.0.5..v2.0.15): cập nhật OTA KHÔNG bị mất bản quyền và giữ nguyên 100% cấu hình phòng thu.\r\n- Giữ nguyên mặc định chuẩn phòng thu (TUNE 18 | FLEX 15 | NHẠC -2.0 | MIC 1.0 | V.DÀI -9.0 | V.NGẮN -10.0 | DELAY -14.0), thư mục C:\\Tune AI TH và AI Dò Tone Pro MIR v2.",
-  "date": "2026-11-23T20:56:13.374Z",
-  "sha256": "4bab836f8e2a4c4b0f762e6cebffaf17ac29090b4113a113e52e82511d39b4a5",
-  "size": 23704227,
+  "version": "2.0.17",
+  "tag": "v2.0.17",
+  "tag_name": "v2.0.17",
+  "name": "Tune AI Pro v2.0.17",
+  "notes": "Tune AI Pro v2.0.17 — Kho Tone Nạp Sẵn Offline SQLite & Kho Cloud Cộng Đồng TH AUDIO (Ra Tone Tức Thì):\r\n- Tầng 1 (Kho Tone Offline SQLite — tone_db.sqlite): Tra cứu Tone theo đúng YouTube Video ID trong < 0.005 giây, ra Tone tức thì sang Cubase kể cả khi mất mạng.\r\n- Tầng 2 (Kho Cloud Cộng Đồng TH AUDIO — Cloudflare D1 APAC): Khi gặp bài mới chưa có trên máy, app tự tra Cloud trong ~0.15 giây; nếu máy bạn là máy đầu tiên dò bài đó bằng Pro MIR AI v2, kết quả sẽ tự đóng góp lên Cloud (có đồng thuận đa máy chống nhiễu) để tất cả máy khách khác ra Tone tức thì.\r\n- Tự động đồng bộ ngầm Kho Tone mới nhất về máy (và có nút \"📚 Kho Tone Cloud — Đồng bộ\" ngay trong menu ⚙ Tiện ích).\r\n- Nâng sức chứa bộ nhớ đệm AI cục bộ từ 500 lên 5.000 bài; giữ nguyên ưu tiên số 1 cho bài khách tự bấm Lưu Bài (user_songs.json).\r\n- Bảo toàn 100% bảo mật Ed25519 + Native C DLL lớp 2, bản quyền khách cũ, cấu hình 7 núm mặc định phòng thu và thư mục C:\\Tune AI TH.",
+  "date": "2026-11-24T10:28:26.998Z",
+  "sha256": "1105a084e405f59cdfd8d8a28f6fb6fd5e77a11de197632859aabc9606b5cda4",
+  "size": 23713716,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.16/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.16/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.17/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.17/Tune.AI.Pro.exe"
 }
