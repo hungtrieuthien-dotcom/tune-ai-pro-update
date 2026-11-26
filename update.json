@@ -1,14 +1,14 @@
 {
-  "version": "2.0.21",
-  "tag": "v2.0.21",
-  "tag_name": "v2.0.21",
-  "name": "Tune AI Pro v2.0.21",
-  "notes": "Tune AI Pro v2.0.21 — Khắc Phục 100% Kết Nối SSL Máy Mới / Windows Sandbox & Tối Ưu Cài Đặt loopMIDI Không Treo:\r\n- Nâng cấp kết nối HTTPS 3 lớp (ưu tiên kho chứng chỉ certifi đóng gói sẵn + Windows Store + Schannel curl.exe): nhận Key tự động từ iPhone, Mã 6 số, Kho Tone Cloud và OTA GitHub hoạt động trơn tru ngay cả trên Windows mới cài tinh hoặc Windows Sandbox.\r\n- Tối ưu bộ cài Setup bước cài driver loopMIDI: tự nhận diện Windows Sandbox để không treo, tự tin cậy chứng chỉ chính hãng Tobias Erichsen trên máy thật và giới hạn thời gian tối đa 25 giây để bộ cài không bao giờ bị đứng.\r\n- Giữ nguyên 100% bản quyền, cài đặt, bài hát tự lưu (user_songs.json) và dữ liệu của toàn bộ khách hàng cũ.",
-  "date": "2026-11-26T13:00:30.889Z",
-  "sha256": "8da9f16ea4d3335d5abbc5aab430d78606082bf38bb42d375b5cd7a3aad592be",
-  "size": 23725883,
+  "version": "2.0.22",
+  "tag": "v2.0.22",
+  "tag_name": "v2.0.22",
+  "name": "Tune AI Pro v2.0.22",
+  "notes": "Tune AI Pro v2.0.22 — Quản Lý Bản Quyền Từ Xa (Thu Hồi Key & Chỉnh Hạn / Đổi Gói Qua Điện Thoại iPhone Bằng Chữ Ký Ed25519):\r\n- Đồng bộ chính sách bản quyền ký số Ed25519 (đầu cuối tới Public Key cứng trong app): chủ app có thể gia hạn, đổi gói (Vĩnh Viễn / 1 Năm / 6 Tháng / Ngày tùy chỉnh) hoặc thu hồi/mở khóa máy trực tiếp từ iPhone TH KeyGen.\r\n- Bảo toàn 100% bản quyền & dữ liệu khách hàng cũ: máy khách cũ không bị ảnh hưởng, hoạt động hoàn toàn bình thường khi Offline (Fail-Open); lệnh thu hồi đã ký lưu bền vững kể cả khi ngắt mạng.\r\n- Tự động mở khóa ngay trên màn hình kích hoạt khi chủ app gia hạn hoặc mở khóa lại từ điện thoại.",
+  "date": "2026-11-26T13:39:26.024Z",
+  "sha256": "2aa6714dcbd4205ba4ad4a84a08b204a52fdbb21463501dfc68e6b6418604789",
+  "size": 23732494,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.21/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.21/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.22/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.22/Tune.AI.Pro.exe"
 }
