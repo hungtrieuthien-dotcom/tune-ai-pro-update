@@ -1,14 +1,14 @@
 {
-  "version": "2.0.22",
-  "tag": "v2.0.22",
-  "tag_name": "v2.0.22",
-  "name": "Tune AI Pro v2.0.22",
-  "notes": "Tune AI Pro v2.0.22 — Quản Lý Bản Quyền Từ Xa (Thu Hồi Key & Chỉnh Hạn / Đổi Gói Qua Điện Thoại iPhone Bằng Chữ Ký Ed25519):\r\n- Đồng bộ chính sách bản quyền ký số Ed25519 (đầu cuối tới Public Key cứng trong app): chủ app có thể gia hạn, đổi gói (Vĩnh Viễn / 1 Năm / 6 Tháng / Ngày tùy chỉnh) hoặc thu hồi/mở khóa máy trực tiếp từ iPhone TH KeyGen.\r\n- Bảo toàn 100% bản quyền & dữ liệu khách hàng cũ: máy khách cũ không bị ảnh hưởng, hoạt động hoàn toàn bình thường khi Offline (Fail-Open); lệnh thu hồi đã ký lưu bền vững kể cả khi ngắt mạng.\r\n- Tự động mở khóa ngay trên màn hình kích hoạt khi chủ app gia hạn hoặc mở khóa lại từ điện thoại.",
-  "date": "2026-11-26T13:39:26.024Z",
-  "sha256": "2aa6714dcbd4205ba4ad4a84a08b204a52fdbb21463501dfc68e6b6418604789",
-  "size": 23732494,
+  "version": "2.0.23",
+  "tag": "v2.0.23",
+  "tag_name": "v2.0.23",
+  "name": "Tune AI Pro v2.0.23",
+  "notes": "Tune AI Pro v2.0.23 — Nút Lưu Cấu Hình Nhanh 1 Chạm & Tự Lưu Mặc Định 7 Núm Khi Cài Mới:\r\n- Thay nút thu xuống góc trên phải thành icon đĩa mềm Lưu Cấu Hình (💾) gọi trực tiếp chức năng Lưu Cấu Hình nhanh, có nháy xanh xác nhận ngay khi bấm.\r\n- Khắc phục triệt để thứ tự nạp mặc định khi cài mới cho khách: máy cài mới tự động mở sẵn và tự lưu chuẩn 7 thông số (TUNE 18 • FLEX 15 • NHẠC -2.0 • MIC 1.0 • V.DÀI -9.0 • V.NGẮN -10.0 • DELAY -14.0).\r\n- Bảo toàn 100% key bản quyền & cấu hình riêng của toàn bộ khách hàng cũ khi cập nhật OTA.",
+  "date": "2026-11-28T14:46:31.203Z",
+  "sha256": "59e6f5736dd83aa90cc76e5599e90a455a0cba09bad885e008e2da270d35a45b",
+  "size": 23735189,
   "file": "Tune AI Pro.exe",
   "asset_name": "Tune.AI.Pro.exe",
-  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.22/Tune.AI.Pro.exe",
-  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.22/Tune.AI.Pro.exe"
+  "url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.23/Tune.AI.Pro.exe",
+  "download_url": "https://github.com/hungtrieuthien-dotcom/tune-ai-pro-update/releases/download/v2.0.23/Tune.AI.Pro.exe"
 }
